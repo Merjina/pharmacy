@@ -1,0 +1,71 @@
+.feedback-container {
+    width: 40%; /* Reduced width from 60% to 40% */
+    margin: 50px auto;
+    padding: 40px; /* Reduced padding from 30px to 20px */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 120px;
+    
+}
+
+
+.feedback-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.feedback-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedback-container input,
+.feedback-container textarea {
+    padding: 8px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-container button {
+    padding: 10px 10px; /* Reduced padding for smaller size */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content; /* Makes the button's width only as wide as its text */
+    align-self: center; /* Center the button in the form */
+}
+
+
+.feedback-container button:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.opinion-background {
+    background-image: url("D:\Frontend\aswathy\src\assets\pharmacy.jpg"); /* <-- change path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

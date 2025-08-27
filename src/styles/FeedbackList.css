@@ -1,0 +1,60 @@
+/* FeedbackList.css */
+
+/* Centering the table */
+.feedback-report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+.feedback-table {
+    border-collapse: collapse;
+    width: 60%; /* Adjust this to control the table width */
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header Styling */
+.feedback-table th {
+    background-color: #51b969;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Body Styling */
+.feedback-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Last row border fix */
+.feedback-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Hover Effect */
+.feedback-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Error Message Styling */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .feedback-table {
+        width: 90%;
+    }
+}

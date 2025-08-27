@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+ background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Allow scrolling if necessary */
+  overflow-y: auto;
+}
+
+/* Center the SignUp box */
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: url('D:\Frontend\aswathy\src\assets\med.png') no-repeat center center fixed;
+ 
+}
+
+/* SignUp Box Styling */
+.signup-box {
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading Styling */
+.signup-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Label Styling */
+.signup-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Input Field Styling */
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+.signup-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  margin-top: 10px;
+}
+
+.signup-button:hover {
+  background-color: #218838;
+  transform: scale(1.02);
+}
+
+/* Link Styling */
+.signup-paragraph {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signup-paragraph a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-paragraph a:hover {
+  text-decoration: underline;
+}
+
+/* Error Message Styling */
+.text-danger {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .signup-box {
+    padding: 15px;
+  }
+  .signup-header {
+    font-size: 20px;
+  }
+}

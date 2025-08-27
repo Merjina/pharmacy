@@ -1,0 +1,50 @@
+/* src/styles/Footer.css */
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  /* Remove any fixed margin-top so that it appears right after the content */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  max-width: 250px;
+  height: 30vh;
+  color: white;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #00d9ff;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 14px;
+}
+h3{
+  color: white;
+}

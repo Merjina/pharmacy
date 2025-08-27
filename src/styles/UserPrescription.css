@@ -1,0 +1,76 @@
+ .prescription{
+  margin-left: -2px;
+} 
+
+/* Container for the main content */
+.user-list-container {
+  padding: 30px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.user-list-container h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+/* List of prescription cards */
+.prescription-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+/* Each prescription card */
+.prescription-card {
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.1);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.prescription-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.15);
+}
+
+.prescription-card p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.prescription-card strong {
+  color: #222;
+}
+
+.prescription-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.prescription-card a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweak */
+@media screen and (max-width: 600px) {
+  .prescription-card {
+    padding: 16px;
+  }
+
+  .user-list-container {
+    padding: 20px;
+  }
+
+  .user-list-container h2 {
+    font-size: 22px;
+  }
+}

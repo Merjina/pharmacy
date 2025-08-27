@@ -1,0 +1,89 @@
+.Navbar-nav {
+  position: fixed;  /* fixes it at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* set a fixed height */
+  background-color: #0f0d0d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* space between left (logo) and right items */
+  padding: 0 20px;
+ 
+  z-index: 999;
+}
+
+.Navbar-div {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.Navbar-ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.Navbar-ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.Navbar-ul li a:hover {
+  color: #007bff;
+}
+
+/* Icon style */
+.Navbar-icon {
+  font-size: 1.1rem;
+}
+
+.Navbar-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 5px;
+}
+
+.Navbar-search-input {
+  padding: 5px;
+  margin-top: -16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Navbar-search-button {
+  padding: 6px 16px;       /* Slightly larger for better visibility */
+  border: none;
+  color: white;
+  border-radius: 20px;      /* Rounded corners for sleek look */
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Navbar-search-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05);    /* Slightly grow when hovered */
+}
+
+.wishlist-icon-navbar {
+  cursor: pointer;
+  margin-right: 5px;
+  transition: color 0.3s;
+  color: rgb(244, 243, 243);
+}
+
+.wishlist-icon-navbar:hover {
+  color: red;
+}

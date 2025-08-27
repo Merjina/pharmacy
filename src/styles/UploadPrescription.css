@@ -1,0 +1,97 @@
+/* UploadPrescription.css */
+
+/* Centering the upload container */
+.prescription-upload-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.prescription-upload-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Profile details */
+.profile-details {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.profile-details p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.profile-details strong {
+  color: #222;
+}
+
+/* Form styles */
+.prescription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prescription-form label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.prescription-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+/* Upload button */
+.prescription-form button {
+  background: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.prescription-form button:hover {
+  background: #218838;
+}
+
+/* Upload message */
+.upload-msg {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .prescription-upload-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .prescription-form input {
+    width: 100%;
+  }
+}

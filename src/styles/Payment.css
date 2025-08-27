@@ -1,0 +1,120 @@
+.payment-page {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh; /* Ensure it takes up the full height */
+  justify-content: flex-start; /* Align content from top to bottom */
+}
+
+.payment-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.payment-table th,
+.payment-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+}
+
+.payment-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.payment-summary {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.payment-options {
+  margin-bottom: 20px;
+}
+
+.payment-options h4 {
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.payment-methods button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-methods button:hover {
+  background-color: #218838;
+}
+
+/* Back Button */
+.back-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 15px; /* Reduced space */
+  width: 100%;
+  max-width: 300px; /* Limit max width for large screens */
+  align-self: center; /* Center it horizontally */
+  text-align: center;
+}
+
+.back-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .payment-methods {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .payment-methods button {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .back-btn {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 15px;
+  }
+}

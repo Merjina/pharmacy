@@ -1,0 +1,77 @@
+.order-page-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Table Styling */
+.order-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-table th, 
+.order-table td {
+  padding: 10px;
+  border: 1px solid #412f2f;
+  text-align: center;
+  background-color: white;
+}
+
+.order-product-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+/* Buttons Container */
+.order-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Button Styling */
+.back-btn, 
+.pay-btn,
+.remove-btn {
+  padding: 10px 20px;   /* Same padding for uniform size */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  min-width: 150px;     /* Ensures all buttons have the same width */
+}
+
+/* Back Button */
+.back-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Pay Button */
+.pay-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.pay-btn:hover {
+  background-color: #218838;
+}
+
+/* Remove Button */
+.remove-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}

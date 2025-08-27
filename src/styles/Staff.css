@@ -1,0 +1,187 @@
+/* Staff Dashboard Styles */
+.staff-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.staff-dashboard {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* Section Styles */
+.dashboard-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #2e3b4e;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Prescription Table */
+.prescription-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.prescription-table th,
+.prescription-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.prescription-table th {
+  background-color: #f1f1f1;
+}
+
+.status-approved {
+  color: green;
+}
+
+.status-pending {
+  color: orange;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.approve-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.approve-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
+
+.notify-btn {
+  background-color: #ff9800;
+  color: white;
+}
+
+.notify-btn:hover {
+  background-color: #fb8c00;
+}
+
+/* Stock Table */
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.stock-table th,
+.stock-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.stock-table th {
+  background-color: #f1f1f1;
+}
+
+/* Chat Section */
+.chat-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  grid-column: span 2;
+}
+
+.chat-section input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.chat-section button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-section button:hover {
+  background-color: #0056b3;
+}
+
+.chat-section p {
+  margin: 5px 0;
+}
+
+.chat-section .chat-message {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.chat-section .chat-message .sender {
+  font-weight: bold;
+}
+
+.chat-section .chat-message .content {
+  max-width: 75%;
+}
+
+.chat-section .chat-message .time {
+  color: #888;
+  font-size: 12px;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.error-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+}
+
