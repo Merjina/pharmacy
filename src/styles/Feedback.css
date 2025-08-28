@@ -60,7 +60,7 @@
 }
 
 .opinion-background {
-    background-image: url("D:\Frontend\aswathy\src\assets\pharmacy.jpg"); /* <-- change path if needed */
+    /* background-image: url("D:\Frontend\aswathy\src\assets\pharmacy.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
